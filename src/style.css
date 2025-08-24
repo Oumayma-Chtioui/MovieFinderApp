@@ -1,0 +1,79 @@
+body{
+    background-color: #1D1C25;
+    color: #FAEFD9;
+    font-family:inter ;
+}
+main{
+    padding: 30px 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    text-align: center;
+}
+#searchmovies{
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border-style: none;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+button{
+    margin: 10px;
+    border-color: #FAEFD9;
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    background-color: #1D1C25;
+    color: #FAEFD9;
+    font-family:inter;
+}
+button:hover{
+    background-color: #FAEFD9;
+    color: #1D1C25;
+    border-style: none;
+}
+#search{
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.imdbID{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    padding-left: 20px;
+}
+.movieCard{
+    display: flex;
+    align-items: center;
+    padding:10px ;
+}
+.movie img{
+    width:300px;
+    border-radius: 10px;
+}
+#title{
+    font-size: 25px;
+    font-weight: 900;
+}
+#release_date{
+    font-size: 15px;
+    font-weight: 400;
+}
+#overview{
+    font-size: 18;
+    font-weight: 200;
+}
